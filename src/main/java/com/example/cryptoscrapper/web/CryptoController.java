@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @RestController
 public class CryptoController {
-    @Autowired
+    
 private  CryptoServices cryptoServices;
 
 
