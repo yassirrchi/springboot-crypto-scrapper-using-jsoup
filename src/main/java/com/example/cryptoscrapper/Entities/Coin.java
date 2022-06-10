@@ -1,5 +1,11 @@
-package Entities;
+package com.example.cryptoscrapper.Entities;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
 public class Coin {
     private  String rank;
     private String name;

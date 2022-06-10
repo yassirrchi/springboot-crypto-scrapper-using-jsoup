@@ -1,6 +1,6 @@
-package Services;
+package com.example.cryptoscrapper.Services;
 
-import Entities.Coin;
+import com.example.cryptoscrapper.Entities.Coin;
 
 import java.util.List;
 

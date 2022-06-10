@@ -1,6 +1,6 @@
-package Services;
+package com.example.cryptoscrapper.Services;
 
-import Entities.Coin;
+import com.example.cryptoscrapper.Entities.Coin;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 @Service
 public class CryptoServicesImpl implements CryptoServices{
     @Override
@@ -41,8 +42,8 @@ public class CryptoServicesImpl implements CryptoServices{
                 i++;
             }
             System.out.println("--------------");
-          //  for(int l=0; l<10;l++)
-            //    allCoins.get(l).getAll();
+            for(int l=0; l<10;l++)
+                allCoins.get(l).getAll();
             return allCoins;
         }
         catch (Exception e){
